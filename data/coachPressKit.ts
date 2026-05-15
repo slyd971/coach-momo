@@ -72,6 +72,10 @@ export type CoachPressKit = {
     paragraphs: string[];
     highlights: string[];
     quote: string;
+    philosophie: {
+      quote: string;
+      text: string;
+    };
   };
   videos: {
     title: string;
@@ -130,7 +134,7 @@ export const coachPressKit: CoachPressKit = {
   },
   socials: [
     { label: "WhatsApp", href: "https://wa.me/221774870835" },
-    { label: "Instagram", href: "https://www.instagram.com/" },
+    { label: "Instagram", href: "https://www.instagram.com/momarjr_/" },
     { label: "Email", href: "mailto:contact@momo-diop.com" },
   ],
   credibility: [
@@ -151,13 +155,13 @@ export const coachPressKit: CoachPressKit = {
     },
     {
       value: "Abidjan",
-      label: "à domicile & extérieur",
+      label: "à domicile ou en salle",
       detail: "séances privées sur rendez-vous",
     },
   ],
   galleryImages: [],
   bio: {
-    eyebrow: "À propos",
+    eyebrow: "Bio",
     title: "Un coach de boxe exigeant, humain et orienté résultats.",
     paragraphs: [
       "Passionné de sport et de dépassement de soi, Momo Diop évolue dans l'univers de la boxe depuis 2010. Son approche mélange technique, condition physique et mental de compétition.",
@@ -170,6 +174,11 @@ export const coachPressKit: CoachPressKit = {
     ],
     quote:
       "La boxe ne transforme pas seulement le corps, elle forge aussi la discipline, la confiance et le mental.",
+    philosophie: {
+      quote:
+        "La boxe ne transforme pas seulement le corps, elle forge également le mental. Chaque entraînement est une occasion de devenir plus fort, plus discipliné et plus confiant.",
+      text: "Momo Diop met un point d'honneur à transmettre la discipline, le respect, la motivation et la confiance à travers chaque entraînement.",
+    },
   },
   videos: {
     title: "Ambiance entraînement",
@@ -222,7 +231,7 @@ export const coachPressKit: CoachPressKit = {
           "Travail pieds-poings, distance, équilibre et enchaînements fluides.",
       },
       {
-        name: "Boxe thaïlandaise",
+        name: "Boxe thaï",
         label: "Puissance / pieds / genoux",
         image: "/images/boxing-styles/boxe-thailandaise.jpg",
         description:

@@ -11,9 +11,8 @@ export function SiteHeader({ nav, name, ctaHref }: SiteHeaderProps) {
     <header className="site-header">
       <nav className="site-nav" aria-label="Navigation principale">
         <a className="brand-mark" href="#" aria-label="Retour en haut">
-          <b>MD</b>
           <span>{name}</span>
-          <small>Private boxing club</small>
+          <small>Coach de boxe</small>
         </a>
 
         <div className="nav-links">

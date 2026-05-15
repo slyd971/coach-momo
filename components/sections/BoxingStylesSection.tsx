@@ -12,7 +12,7 @@ export function BoxingStylesSection({ boxingStyles }: BoxingStylesSectionProps) 
           <p className="section-kicker">Disciplines</p>
           <h2>
             <span>Types de boxe</span>
-            <em>proposes</em>
+            <em>proposés</em>
           </h2>
         </div>
         <p>{boxingStyles.subtitle}</p>

@@ -16,9 +16,51 @@ const display = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Momo Diop | Coach sportif & coach de boxe",
+  title: "Momo Diop | Coach sportif & coach de boxe à Abidjan",
   description:
-    "Coaching de boxe premium a domicile a Abidjan avec Momo Diop : boxe anglaise, francaise, thailandaise, remise en forme et preparation physique.",
+    "Coaching de boxe premium à domicile à Abidjan avec Momo Diop : boxe anglaise, française, thaïlandaise, remise en forme et préparation physique.",
+  openGraph: {
+    title: "Momo Diop | Coach sportif & coach de boxe à Abidjan",
+    description:
+      "Séances privées de boxe à domicile à Abidjan. Boxe anglaise, française, thaïlandaise. Coaching personnalisé adapté à tous les niveaux.",
+    type: "website",
+    locale: "fr_CI",
+    siteName: "Momo Diop — Coach de boxe",
+    images: [
+      {
+        url: "/images/bio-profile-momo.png",
+        width: 1200,
+        height: 630,
+        alt: "Momo Diop, coach de boxe à Abidjan",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Momo Diop | Coach sportif & coach de boxe à Abidjan",
+    description:
+      "Séances privées de boxe à domicile à Abidjan. Coaching personnalisé, tous niveaux.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Momo Diop — Coach de boxe",
+  description:
+    "Coaching de boxe premium à domicile à Abidjan : boxe anglaise, française, thaïlandaise, remise en forme et préparation physique.",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Abidjan",
+    addressCountry: "CI",
+  },
+  telephone: "+221774870835",
+  priceRange: "25 000 FCFA",
+  knowsAbout: ["Boxe anglaise", "Boxe française", "Boxe thaïlandaise", "Coaching sportif"],
 };
 
 export default function RootLayout({
@@ -28,6 +70,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      </head>
       <body className={`${sans.variable} ${display.variable}`}>{children}</body>
     </html>
   );

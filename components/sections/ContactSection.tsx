@@ -13,14 +13,14 @@ export function ContactSection({ contact }: ContactSectionProps) {
           <h2>{contact.title}</h2>
           <p>{contact.subtitle}</p>
           <p className="contact-reassurance">
-            Reponse directe, format clair, seance adaptee au niveau reel.
+            Réponse directe, format clair, séance adaptée au niveau réel.
           </p>
         </div>
 
         <div className="contact-panel">
           <dl>
             <div>
-              <dt>Telephone</dt>
+              <dt>Téléphone</dt>
               <dd>{contact.phone}</dd>
             </div>
             <div>
@@ -28,12 +28,12 @@ export function ContactSection({ contact }: ContactSectionProps) {
               <dd>{contact.location}</dd>
             </div>
             <div>
-              <dt>Disponibilite</dt>
+              <dt>Disponibilité</dt>
               <dd>{contact.availability}</dd>
             </div>
           </dl>
           <a className="hero-cta hero-cta-primary" href={contact.whatsapp}>
-            Ecrire sur WhatsApp
+            Écrire sur WhatsApp
           </a>
         </div>
       </div>
