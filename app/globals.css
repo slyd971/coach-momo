@@ -933,18 +933,6 @@ a {
   letter-spacing: 0.035em;
 }
 
-.boxing-heading h2::before {
-  content: "03 styles";
-  position: absolute;
-  right: 0.15em;
-  top: -0.7em;
-  color: rgba(230, 66, 77, 0.78);
-  font-family: var(--font-inter), Arial, sans-serif;
-  font-size: clamp(0.64rem, 1vw, 0.78rem);
-  font-weight: 900;
-  letter-spacing: 0.18em;
-  line-height: 1;
-}
 
 .boxing-heading h2 span {
   color: transparent;
