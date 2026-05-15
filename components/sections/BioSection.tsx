@@ -29,7 +29,7 @@ export function BioSection({ bio }: BioSectionProps) {
       </div>
 
       <figure className="bio-portrait">
-        <img src="/images/bio-profile-momo.png" alt="Momo Diop, coach de boxe à Abidjan" />
+        <img src="/images/bio-profile-momo.png" alt="Coach Momar, coach de boxe à Abidjan" />
       </figure>
     </section>
   );

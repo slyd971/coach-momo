@@ -17,28 +17,28 @@ const display = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://slyd971.github.io/coach-momo"),
-  title: "Momo Diop | Coach sportif & coach de boxe à Abidjan",
+  title: "Coach Momar | Coach sportif & coach de boxe à Abidjan",
   description:
-    "Coaching de boxe premium à domicile à Abidjan avec Momo Diop : boxe anglaise, française, thaïlandaise, remise en forme et préparation physique.",
+    "Coaching de boxe premium à domicile à Abidjan avec Coach Momar : boxe anglaise, française, thaïlandaise, remise en forme et préparation physique.",
   openGraph: {
-    title: "Momo Diop | Coach sportif & coach de boxe à Abidjan",
+    title: "Coach Momar | Coach sportif & coach de boxe à Abidjan",
     description:
       "Séances privées de boxe à domicile à Abidjan. Boxe anglaise, française, thaïlandaise. Coaching personnalisé adapté à tous les niveaux.",
     type: "website",
     locale: "fr_CI",
-    siteName: "Momo Diop — Coach de boxe",
+    siteName: "Coach Momar — Coach de boxe à Abidjan",
     images: [
       {
         url: "/images/bio-profile-momo.png",
         width: 1023,
         height: 1537,
-        alt: "Momo Diop, coach de boxe à Abidjan",
+        alt: "Coach Momar, coach de boxe à Abidjan",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Momo Diop | Coach sportif & coach de boxe à Abidjan",
+    title: "Coach Momar | Coach sportif & coach de boxe à Abidjan",
     description:
       "Séances privées de boxe à domicile à Abidjan. Coaching personnalisé, tous niveaux.",
   },
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "Momo Diop — Coach de boxe",
+  name: "Coach Momar — Coach de boxe à Abidjan",
   description:
     "Coaching de boxe premium à domicile à Abidjan : boxe anglaise, française, thaïlandaise, remise en forme et préparation physique.",
   address: {

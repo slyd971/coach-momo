@@ -114,7 +114,7 @@ export const coachPressKit: CoachPressKit = {
     { label: "Contact", href: "#contact" },
   ],
   hero: {
-    name: "Momo Diop",
+    name: "Coach Momar",
     baseline: "Coach sportif & coach de boxe",
     eyebrow: "Fight night standard",
     badge: "1:1 coaching privé",
@@ -164,7 +164,7 @@ export const coachPressKit: CoachPressKit = {
     eyebrow: "Bio",
     title: "Un coach de boxe exigeant, humain et orienté résultats.",
     paragraphs: [
-      "Passionné de sport et de dépassement de soi, Momo Diop évolue dans l'univers de la boxe depuis 2010. Son approche mélange technique, condition physique et mental de compétition.",
+      "Passionné de sport et de dépassement de soi, Coach Momar évolue dans l'univers de la boxe depuis 2010. Son approche mélange technique, condition physique et mental de compétition.",
       "Il accompagne des débutants, intermédiaires et profils confirmés avec des séances personnalisées à domicile, adaptées au niveau, au rythme et aux objectifs de chacun.",
     ],
     highlights: [
@@ -177,7 +177,7 @@ export const coachPressKit: CoachPressKit = {
     philosophie: {
       quote:
         "La boxe ne transforme pas seulement le corps, elle forge également le mental. Chaque entraînement est une occasion de devenir plus fort, plus discipliné et plus confiant.",
-      text: "Momo Diop met un point d'honneur à transmettre la discipline, le respect, la motivation et la confiance à travers chaque entraînement.",
+      text: "Coach Momar met un point d'honneur à transmettre la discipline, le respect, la motivation et la confiance à travers chaque entraînement.",
     },
   },
   videos: {
@@ -285,7 +285,7 @@ export const coachPressKit: CoachPressKit = {
   contact: {
     title: "Prêt à dépasser tes limites ?",
     subtitle:
-      "Contacte Momo pour réserver une séance, parler de ton objectif et choisir le bon format.",
+      "Contacte Coach Momar pour réserver une séance, parler de ton objectif et choisir le bon format.",
     phone: "+225 01 41 34 20 60",
     whatsapp: "https://wa.me/2250141342060",
     location: "Abidjan et alentours",
