@@ -27,14 +27,6 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fr_CI",
     siteName: "Coach Momar — Coach de boxe à Abidjan",
-    images: [
-      {
-        url: "/images/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Coach Momar, coach de boxe à Abidjan",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
