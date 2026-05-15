@@ -7,10 +7,6 @@ type HeroContentProps = {
 export function HeroContent({ hero }: HeroContentProps) {
   return (
     <div className="hero-copy">
-      <div className="hero-badge-row">
-        <span>{hero.badge}</span>
-        <span>{hero.eyebrow}</span>
-      </div>
       <h1>{hero.name}</h1>
       <p className="hero-baseline">{hero.baseline}</p>
 
