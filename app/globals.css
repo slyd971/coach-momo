@@ -709,18 +709,6 @@ a {
   margin: 0 auto;
   padding: 104px 0;
   border-top: 1px solid rgba(247, 244, 239, 0.1);
-  counter-increment: section;
-}
-
-.section::before {
-  content: "0" counter(section);
-  position: absolute;
-  top: 104px;
-  right: 0;
-  color: rgba(230, 66, 77, 0.55);
-  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
-  font-size: 0.95rem;
-  letter-spacing: 0.18em;
 }
 
 .section:nth-of-type(even) {
