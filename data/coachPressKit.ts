@@ -135,7 +135,7 @@ export const coachPressKit: CoachPressKit = {
   socials: [
     { label: "WhatsApp", href: "https://wa.me/221774870835" },
     { label: "Instagram", href: "https://www.instagram.com/momarjr_/" },
-    { label: "Email", href: "mailto:contact@momo-diop.com" },
+    { label: "Email", href: "mailto:Momardiop992@gmail.com" },
   ],
   credibility: [
     {
@@ -286,8 +286,8 @@ export const coachPressKit: CoachPressKit = {
     title: "Prêt à dépasser tes limites ?",
     subtitle:
       "Contacte Momo pour réserver une séance, parler de ton objectif et choisir le bon format.",
-    phone: "+221 77 487 08 35",
-    whatsapp: "https://wa.me/221774870835",
+    phone: "+225 01 41 34 20 60",
+    whatsapp: "https://wa.me/2250141342060",
     location: "Abidjan et alentours",
     availability: "Séances sur rendez-vous, à domicile ou en extérieur",
   },
