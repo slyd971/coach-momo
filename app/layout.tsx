@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     siteName: "Coach Momar — Coach de boxe à Abidjan",
     images: [
       {
-        url: "/images/bio-profile-momo.png",
-        width: 1023,
-        height: 1537,
+        url: "/images/og-image.jpg",
+        width: 1200,
+        height: 630,
         alt: "Coach Momar, coach de boxe à Abidjan",
       },
     ],
