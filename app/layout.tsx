@@ -16,7 +16,7 @@ const display = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://slyd971.github.io/coach-momo"),
+  metadataBase: new URL("https://coach-momar.vercel.app"),
   title: "Coach Momar | Coach sportif & coach de boxe à Abidjan",
   description:
     "Coaching de boxe premium à domicile à Abidjan avec Coach Momar : boxe anglaise, française, thaïlandaise, remise en forme et préparation physique.",
