@@ -96,14 +96,14 @@ a {
   place-items: center;
   border: 1px solid rgba(230, 66, 77, 0.52);
   color: var(--white);
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: 1.05rem;
   font-weight: 700;
   letter-spacing: 0.04em;
 }
 
 .brand-mark span {
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -329,7 +329,7 @@ a {
 
 .hero-video-placeholder strong {
   color: rgba(247, 244, 239, 0.2);
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: clamp(3.6rem, 13vw, 10rem);
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -415,7 +415,7 @@ a {
 
 .media-placeholder strong {
   color: var(--white);
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: clamp(5rem, 12vw, 9rem);
   font-weight: 700;
   line-height: 0.88;
@@ -672,7 +672,7 @@ a {
 
 .credibility-card strong {
   color: var(--white);
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: clamp(2.8rem, 5.4vw, 5.8rem);
   font-weight: 700;
   line-height: 0.88;
@@ -718,7 +718,7 @@ a {
   top: 104px;
   right: 0;
   color: rgba(230, 66, 77, 0.55);
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: 0.95rem;
   letter-spacing: 0.18em;
 }
@@ -797,7 +797,7 @@ a {
 .contact-section h2 {
   margin: 0;
   color: var(--white);
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: clamp(1.8rem, 3.2vw, 3rem);
   font-weight: 700;
   line-height: 0.98;
@@ -1009,7 +1009,7 @@ a {
   top: 20px;
   z-index: 2;
   color: rgba(247, 244, 239, 0.28);
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: 1.4rem;
   font-weight: 700;
 }
@@ -1068,7 +1068,7 @@ a {
   position: relative;
   z-index: 3;
   color: rgba(247, 244, 239, 0.16);
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: clamp(5rem, 11vw, 8rem);
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -1093,7 +1093,7 @@ a {
 .boxing-body h3 {
   margin: 0 0 14px;
   color: var(--white);
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: clamp(1.8rem, 3vw, 2.5rem);
   font-weight: 700;
   line-height: 1;
@@ -1163,7 +1163,7 @@ a {
 
 .video-placeholder em {
   color: rgba(247, 244, 239, 0.32);
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: clamp(4rem, 10vw, 7rem);
   font-weight: 700;
   line-height: 0.8;
@@ -1179,7 +1179,7 @@ a {
 .video-placeholder span {
   max-width: 12ch;
   color: var(--white);
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: 1.3rem;
   font-weight: 700;
   line-height: 1.02;
@@ -1272,7 +1272,7 @@ a {
 .offer-card h3 {
   margin: 0 0 10px;
   color: var(--white);
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: 1.45rem;
   font-weight: 700;
   line-height: 1.06;
@@ -1324,7 +1324,7 @@ a {
   top: 26px;
   right: 26px;
   color: rgba(247, 244, 239, 0.28);
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: 1.4rem;
   font-weight: 700;
 }
@@ -1340,7 +1340,7 @@ a {
 .offer-price {
   margin-bottom: 14px;
   color: var(--white) !important;
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: clamp(2rem, 4vw, 3.5rem) !important;
   font-weight: 700;
   line-height: 1 !important;
@@ -1366,7 +1366,7 @@ a {
   top: 26px;
   transform: translateX(-50%);
   color: rgba(247, 244, 239, 0.04);
-  font-family: var(--font-oswald), Arial, sans-serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   font-size: clamp(4rem, 14vw, 13rem);
   font-weight: 700;
   letter-spacing: 0.06em;
