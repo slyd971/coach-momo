@@ -16,6 +16,7 @@ const display = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://slyd971.github.io/coach-momo"),
   title: "Momo Diop | Coach sportif & coach de boxe à Abidjan",
   description:
     "Coaching de boxe premium à domicile à Abidjan avec Momo Diop : boxe anglaise, française, thaïlandaise, remise en forme et préparation physique.",
@@ -29,8 +30,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/bio-profile-momo.png",
-        width: 1200,
-        height: 630,
+        width: 1023,
+        height: 1537,
         alt: "Momo Diop, coach de boxe à Abidjan",
       },
     ],
