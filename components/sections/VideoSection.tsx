@@ -5,6 +5,8 @@ type VideoSectionProps = {
 };
 
 export function VideoSection({ videos }: VideoSectionProps) {
+  const video = videos.items[0];
+
   return (
     <section className="section" id="videos">
       <div className="section-heading">
@@ -13,9 +15,9 @@ export function VideoSection({ videos }: VideoSectionProps) {
         <p>{videos.subtitle}</p>
       </div>
 
-      <div className="video-grid">
-        {videos.items.map((video, index) => (
-          <article className="video-card" key={video.title}>
+      <div className="video-showcase">
+        <article className="video-card video-card-featured">
+          {video ? (
             <div className="video-thumb">
               {video.src ? (
                 <video controls preload="metadata" playsInline poster={video.poster}>
@@ -25,7 +27,7 @@ export function VideoSection({ videos }: VideoSectionProps) {
                 <img src={video.poster} alt="" />
               ) : (
                 <div className="video-placeholder" aria-hidden="true">
-                  <em>{String(index + 1).padStart(2, "0")}</em>
+                  <em>01</em>
                   <small>{video.label}</small>
                   <span>{video.title}</span>
                 </div>
@@ -37,13 +39,22 @@ export function VideoSection({ videos }: VideoSectionProps) {
               ) : null}
               <span className="video-duration">{video.duration}</span>
             </div>
-            <div className="video-body">
-              <p className="video-label">{video.label}</p>
-              <h3>{video.title}</h3>
-              <p>{video.description}</p>
-            </div>
-          </article>
-        ))}
+          ) : null}
+        </article>
+
+        <div className="video-services" aria-label="Types de services proposés">
+          {videos.serviceItems.map((item, index) => (
+            <article className="video-service-card" key={item.title}>
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <div>
+                <p className="video-label">{item.label}</p>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                {item.duration ? <p className="video-service-duration">{item.duration}</p> : null}
+              </div>
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -81,6 +81,7 @@ export type CoachPressKit = {
     title: string;
     subtitle: string;
     items: VideoItem[];
+    serviceItems: VideoItem[];
   };
   boxingStyles: {
     title: string;
@@ -181,33 +182,36 @@ export const coachPressKit: CoachPressKit = {
     },
   },
   videos: {
-    title: "Ambiance entraînement",
+    title: "Ambiance d'entraînement",
     subtitle:
-      "Extraits de séances, travail aux pattes d'ours, cardio boxing et coaching privé.",
+      "Une séance en conditions réelles pour sentir le rythme, l'intensité et la précision du coaching.",
     items: [
+      {
+        title: "Dans le rythme",
+        description: "Travail technique, corrections directes et intensité adaptée à l'objectif.",
+        label: "Séance réelle",
+        src: "/videos/web/block-video1.mp4",
+        duration: "00:18",
+      },
+    ],
+    serviceItems: [
       {
         title: "Travail technique",
         description: "Précision des appuis, enchaînements et corrections en direct.",
         label: "Technique",
-        src: "/videos/web/coach-technique.mp4",
-        poster: "/images/video-posters/coach-technique.jpg",
-        duration: "00:16",
+        duration: "",
       },
       {
         title: "Cardio boxing",
         description: "Une séance intense pour brûler, transpirer et progresser.",
         label: "Conditioning",
-        src: "/videos/web/coach-cardio.mp4",
-        poster: "/images/video-posters/coach-cardio.jpg",
-        duration: "00:16",
+        duration: "",
       },
       {
         title: "Coaching privé",
         description: "Accompagnement personnalisé, rythme adapté et objectif clair.",
         label: "Private session",
-        src: "/videos/web/coach-private.mp4",
-        poster: "/images/video-posters/coach-private.jpg",
-        duration: "00:16",
+        duration: "",
       },
     ],
   },
